@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+}
+.container{
+  
+    border: 2px solid red;
+}
+.button{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+  background-color: rgb(253, 219, 169);
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: white;
+    transform: scale(0.8);
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+.row{
+  margin: 8px 0;
+  
+}
+.row input{
+    text-align: center;
+    width: 800px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 1200px;
+}
+/*  */
+
+.text-center{
+    background-color: darkslategrey;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .bg-red{
+    background: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+    margin-top: 20px;
+    background-color: rgb(228, 228, 171);
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  .items-center{
+    align-items: center;
+  }
